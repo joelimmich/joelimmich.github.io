@@ -125,13 +125,8 @@ h1 span { font-weight: 300; color: var(--muted); }
 }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
-footer {
-  margin-top: auto; padding-top: 1.5rem; padding-left: 3.25rem;
-  font: 400 .75rem/1.4 var(--mono); color: var(--ink); opacity: .72;
-}
-
 @media (max-width: 560px) {
-  .hello, footer { padding-left: 2.25rem; }
+  .hello { padding-left: 2.25rem; }
 }
 /* Phones: the three buttons share one row in equal widths. */
 @media (max-width: 480px) and (min-width: 340px) {
@@ -192,8 +187,6 @@ footer {
     <p class="sr-only" id="copy-status" role="status" aria-live="polite"></p>
   </section>
   </main>
-
-  <footer>© 2026 Joel Immich</footer>
 </div>
 
 <script>
